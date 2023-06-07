@@ -11,11 +11,19 @@ body{
 }
 
 .headder-bar{
-   background: red;
-   width: 100%;
+   background: rgba(190, 190, 190, 0.1);
+   width: auto;
    height: 100px;
    display: flex;
    justify-content: space-between;
+   align-items: center;
+   border-bottom-left-radius: 20px  ;
+   border-bottom-right-radius: 20px ;
+   padding: 0px 20px;
+}
+
+h1 a{
+   color: white;
 }
 
 li
@@ -25,5 +33,18 @@ li
 
 a{
    text-decoration: none;
-   
+}
+
+.download{
+   color: #9e0098;
+   font-size: 20px;
+   border: 2px solid #9e0098;
+   padding: 15px 25px;
+   border-radius: 15px;
+   transition: 1s;
+}
+
+.download:hover{
+   background: #9e0098;
+   color: white;    
 }
