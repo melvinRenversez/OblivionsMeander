@@ -9,3 +9,21 @@ html, body{
 body{
    background: linear-gradient(#000, #000250, #9e0098);
 }
+
+.headder-bar{
+   background: red;
+   width: 100%;
+   height: 100px;
+   display: flex;
+   justify-content: space-between;
+}
+
+li
+{
+   list-style-type: none;
+}
+
+a{
+   text-decoration: none;
+   
+}
