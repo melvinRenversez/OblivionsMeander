@@ -1,50 +1,74 @@
+@font-face {
+   font-family: titre;
+   src: url(../assets/fonts/old_london/OldLondon.ttf);
+}
 *{
    margin: 0;
    padding: 0;
+   color: white;
 }
 html, body{
    height: 100%;
 }
-
 body{
    background: linear-gradient(#000, #000250, #9e0098);
 }
-
-.headder-bar{
-   background: rgba(190, 190, 190, 0.1);
-   width: auto;
-   height: 100px;
+header{
+   padding: 0px 40px;
+   height: 13%;
+   background: black;
    display: flex;
    justify-content: space-between;
    align-items: center;
-   border-bottom-left-radius: 20px  ;
-   border-bottom-right-radius: 20px ;
-   padding: 0px 20px;
+   border-bottom: 1px solid white;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
 }
-
-h1 a{
-   color: white;
+header h1{
+   font-size: 60px;
+   font-family: titre;
 }
-
-li
-{
-   list-style-type: none;
+nav{
+   display: flex;
+   align-items: center;
 }
-
-a{
+nav a{
+   font-size: 25px;
+   margin: 0px 15px;
    text-decoration: none;
+   position: relative;
 }
-
-.download{
-   color: #9e0098;
-   font-size: 20px;
-   border: 2px solid #9e0098;
-   padding: 15px 25px;
-   border-radius: 15px;
+nav a.link::after{
+   content: '';
+   position: absolute;
+   height: 2px;
+   background: white;
+   width: 100%;
+   left: 0%;
+   bottom: -15px;
+   opacity: 0;
    transition: 1s;
 }
 
-.download:hover{
-   background: #9e0098;
-   color: white;    
+nav a:hover::after{
+   bottom: -2px;
+   opacity: 1;
+}
+.deco{
+   margin: -5x 0px 0px 30px; 
+   padding: 10px 10px;
+   display: flex;
+   justify-content: center;
+   width: 120px;
+   border-radius: 10px;
+   border: 2px solid rgb(205, 72, 205);
+}
+.deco:hover{
+   transition: 1s;
+   background: rgb(205, 72, 205);
+   color: black;
+}
+.content{
+   height: 100%;
+   height: min-content;
 }
