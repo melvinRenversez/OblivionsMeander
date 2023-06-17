@@ -1,7 +1,4 @@
-@font-face {
-   font-family: titre;
-   src: url(../assets/fonts/old_london/OldLondon.ttf);
-}
+
 *{
    margin: 0;
    padding: 0;
@@ -25,8 +22,7 @@ header{
    border-bottom-right-radius: 10px;
 }
 header h1{
-   font-size: 60px;
-   font-family: titre;
+   font-size: 40px;
 }
 nav{
    display: flex;
