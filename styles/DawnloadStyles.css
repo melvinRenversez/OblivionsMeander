@@ -32,8 +32,8 @@ body{
 .btn{ 
    font-size: 20px;
    border: 2px solid white;
-   padding: 15px 0px;
-   border-radius: 20px;
+   padding: 14px 0px;
+   border-radius: 23px;
 }
 .btn a {
    position: relative;
@@ -48,5 +48,8 @@ body{
    width: 100%;
    background: white;
 }
-
-
+.btn a:hover{
+   background: white;
+   color: black;
+   transition: 1s;
+}
